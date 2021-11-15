@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>使用者登入</title>
+    </head>
+    <body>
+        <h2 align = "center"><font color = CoconutBrown>資料管理</font></h2>
+        <h3 align = "center"></h3align>使用者登入</h3>
+        <form action = "/Vocabulary/User/Login/Chack" method="POST">
+            <h3 align = "center"><font color = Cornflowerblue>姓名：　</font><input required type = "text" name = "user_name"/></h3>
+            <h3 align = "center"><font color = Cornflowerblue>學號：　</font><input required type = "text" name = "user_id"/></h3>
+            <h3 align = "center"><font color = red>輸入資料錯誤</font></h3>
+            <h2 align = "center"><button style="width:120px;height:40px;font-size:20px;"> 登入 </button></h2>
+        </form>
+        <h4 align="center"><a href = "/Vocabulary/User/Login/Error/Return">帳號或密碼錯誤? 請連線至以下網址</a></h4>
+        <h2 align = "center"><input type = "button" value = "上一頁" style="width:120px;height:40px;font-size:20px;" onclick = "location.href = '/Entrance' "></h2>
+    </body>
+</html>
